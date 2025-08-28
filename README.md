@@ -1,11 +1,16 @@
 Detailed Penetration Testing Service Overviews
+
+
 Web Application Penetration Testing
+
 Think of your web application as the digital storefront of your business. It's often the first point of contact for your customers, and unfortunately, a primary target for attackers. Our web application penetration testing goes beyond simple scans; we provide a human-led, comprehensive assault on your application's defenses. We don't just check for common vulnerabilities; we simulate a determined attacker to uncover hidden flaws in your logic, authentication, and session management. By identifying and fixing these issues before they can be exploited, we protect your brand reputation, customer data, and bottom line.
 
 How We Do It:
+
 Our methodology is thorough and follows a proven framework. We begin with reconnaissance to map your application's attack surface. Then, our experts perform both authenticated and unauthenticated testing, looking for weaknesses from both a user's and an outsider's perspective. We meticulously examine every API endpoint to ensure secure data exchange. Crucially, we integrate DAST (Dynamic Application Security Testing) into your development lifecycle, ensuring that security is a continuous process, not just a one-time check.
 
 Tools We Use:
+
 
 Burp Suite Pro: An industry-standard, all-in-one platform for web penetration testing. It allows us to intercept, analyze, and manipulate traffic, identify vulnerabilities like SQL injection and cross-site scripting (XSS), and automate repetitive tasks.
 
@@ -14,12 +19,14 @@ OWASP ZAP (Zed Attack Proxy): A powerful open-source tool that helps us find a w
 Custom Scripts and Frameworks: For a truly unique and effective attack simulation, our team develops custom scripts in languages like Python to test specific, unique business logic and evade standard defenses.
 
 Network & Infrastructure Penetration Testing
+
 Your network is the nervous system of your organization, and a single weak point can compromise the entire body. Our network and infrastructure penetration testing is a proactive check-up to ensure that every part of your digital infrastructure is robust. We hunt for misconfigurations, unpatched systems, and insecure services that could give a malicious actor a foothold. By finding these flaws, we empower you to fortify your defenses and prevent a catastrophic breach.
 
 How We Do It:
-We follow the Penetration Testing Execution Standard (PTES), a globally recognized methodology for ethical hacking. This involves extensive reconnaissance and threat modeling to understand your environment. Our team then performs both external and internal testing. External tests simulate an attack from the internet, while internal tests mimic an insider threat or a compromised device. We check for everything from outdated software to insecure network device configurations, providing a full picture of your infrastructure's health.
+We follow the Penetration Testing Execution Standard (PTES), a globally recognized methodology for ethical hacking. This involves extensive reconnaissance and threat modeling to understand your environment. Our team then performs both external and internal testing. External tests simulate an an attack from the internet, while internal tests mimic an insider threat or a compromised device. We check for everything from outdated software to insecure network device configurations, providing a full picture of your infrastructure's health.
 
 Tools We Use:
+
 
 Nmap: The undisputed champion for network discovery and security auditing. It allows us to quickly map network topologies, identify open ports, and discover services running on your hosts.
 
@@ -63,6 +70,15 @@ Technology is only one layer of defense; the human element is often the weakest 
 How We Do It:
 We tailor each social engineering campaign to your unique security objectives. This can include targeted phishing campaigns via email to test employees' ability to spot malicious links, vishing (voice phishing) attacks to test their response to a fraudulent phone call, or even smishing (SMS phishing) attacks. Our tests are conducted in a controlled, safe manner, followed by detailed reporting and security awareness training to turn your human vulnerability into your strongest defense.
 
+Our Assessment Types
+Phishing
+
+Vishing
+
+Physical Social Engineering (UK only)
+
+Smishing
+
 Tools We Use:
 
 GoPhish: An open-source phishing framework that allows us to quickly set up and track phishing campaigns in a controlled, ethical manner.
@@ -81,7 +97,7 @@ Tools We Use:
 
 Custom C2 (Command and Control) Frameworks: Our Red Team utilizes bespoke C2 frameworks to maintain stealth and persistence within a network.
 
-Physical Security Bypass Tools: A variety of tools for physical intrusion, including lock-picking tools, RFID cloners, and covert cameras, are used in a legal and ethical manner with client consent.
+Physical Security Bypass Tools: A variety of tools for physical intrusion, including lock-picking sets, RFID cloners, and covert cameras, are used in a legal and ethical manner with client consent.
 
 Malware Development Tools: We develop custom, undetectable malware to test the efficacy of your endpoint detection and response (EDR) solutions.
 
@@ -99,13 +115,39 @@ Automated Scanners: We utilize a suite of automated tools to provide the foundat
 
 Dedicated Client Portal: Our clients receive real-time updates on testing progress and findings through a dedicated portal, ensuring full transparency and efficient collaboration.
 
+Strategic Cybersecurity Services
+Security is more than just a single test; it's a strategic process. Our cybersecurity consulting services help you build a mature, proactive security posture from the ground up. We work with you to understand your business objectives and risks, then design and implement a security program that aligns with your goals. Our engagements go beyond technical vulnerabilities, addressing the human and process layers of your organization to create a truly resilient defense.
+
+How We Do It:
+We offer a full spectrum of strategic services to meet your unique needs.
+
+Cybersecurity Consulting: Our experts act as a trusted advisor, helping you craft a security strategy that protects your most critical assets. We translate complex security risks into clear business terms, helping you prioritize investments and build a security roadmap for the future.
+
+Tabletop Exercises: We simulate realistic cyber-attacks in a low-stress, discussion-based format. This exercise tests your team's incident response plan and helps you uncover gaps in communication, decision-making, and technical readiness before a real-world event occurs.
+
+Threat Modeling: We help you proactively identify and understand potential threats to your systems. By mapping out potential attack vectors and prioritizing risks, we help you build security into the design of your applications and infrastructure, rather than trying to bolt it on later.
+
+NIST Framework Audits: We conduct detailed audits against the NIST Cybersecurity Framework, a globally recognized standard for managing cyber risk. This provides a clear, actionable benchmark of your security maturity and helps you demonstrate compliance to regulators and stakeholders.
+
+Incident Response Readiness: A breach is a matter of when, not if. Our services ensure you are ready for a cyber incident. We help you create and refine your incident response plan, establish clear roles and responsibilities, and practice your response to minimize damage and get back to business quickly.
+
+Compliance Pentesting: We provide specialized penetration testing services focused on meeting regulatory requirements. Whether you need to comply with PCI DSS, HIPAA, GDPR, or another standard, we test your systems against the specific technical controls required for compliance, providing you with the necessary documentation and evidence.
+
+Tools We Use:
+
+Industry Frameworks & Methodologies: Our primary tools are our deep knowledge of industry standards like NIST, ISO 27001, and MITRE ATT&CK. We use these frameworks to structure our assessments and provide actionable recommendations.
+
+Collaboration Platforms: We use secure, shared platforms to conduct virtual tabletop exercises and share threat models with your team in a structured way.
+
+Project Management Tools: We leverage project management tools to help you track remediation efforts and build a clear roadmap for security improvements.
+
 Penetration Testing Types
 Security is not a one-size-fits-all solution. Your unique digital and physical assets require a tailored approach to vulnerability assessment. Our specialized penetration testing types are designed to provide a laser-focused, deep-dive into the specific areas of your business most at risk. We don't just find vulnerabilities; we help you understand the context and business impact of each one, giving you the knowledge and power to build an impenetrable defense.
 
 How We Do It:
 Our team of ethical hackers has deep expertise across every facet of security.
 
-Application & Code: For your digital presence, we perform targeted testing on your Web Apps, APIs, and Mobile Apps, ensuring every line of code and every interaction is secure. We go beyond automated checks with thorough Source Code reviews to find hidden flaws that can only be spotted by an expert eye.
+Application & Code: For your digital presence, we perform targeted testing on your Web Apps, APIs, and Mobile Apps, ensuring every line of code and every interaction is secure. We go beyond automated checks with thorough Source Code Reviews to find hidden flaws that can only be spotted by an expert eye.
 
 Networks & Infrastructure: We conduct both External and Internal assessments to find weaknesses from both outside and inside your perimeter. Our experts dive into your Wireless networks, audit your Firewalls, and test your entire Infrastructure for vulnerabilities, from misconfigurations to unpatched systems.
 
