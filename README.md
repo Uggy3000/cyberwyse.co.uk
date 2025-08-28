@@ -164,3 +164,72 @@ For ICS/OT: Our team uses industrial-specific scanners and protocols, including 
 For Physical: Our experts are equipped with non-destructive entry tools, including lock-picking sets, RFID cloners, and covert surveillance equipment, all used under strict ethical guidelines.
 
 For all other types: We leverage the same core tools and frameworks mentioned in the detailed overviews above, including Burp Suite, Metasploit, Nmap, and our own suite of custom scripts.
+
+
+
+
+Penetration Testing Tools & Estimated Pricing
+This list provides an overview of the tools used in our penetration testing services and includes a general, estimated price range for each. Please note that pricing can vary based on licensing models, team size, and specific feature sets.
+
+Web Application Penetration Testing Tools
+Burp Suite Pro: $399 - $999 per user, per year
+
+OWASP ZAP (Zed Attack Proxy): Free (Open Source)
+
+Custom Scripts and Frameworks: Pricing included in service engagement
+
+Network & Infrastructure Penetration Testing Tools
+Nmap: Free (Open Source)
+
+Metasploit Framework: Free (Community Edition) to $15,000+ per year (Pro Edition) or a similar penetration testing tool like Canvas.
+
+Wireshark: Free (Open Source)
+
+Cloud Penetration Testing Tools
+Pacu: Free (Open Source)
+
+ScoutSuite: Free (Open Source)
+
+Terraform/CloudFormation parsers: Free (Open Source)
+
+Mobile Application Penetration Testing Tools
+Frida: Free (Open Source)
+
+MobSF (Mobile Security Framework): Free (Open Source)
+
+Reverse Engineering Tools: Free (Open Source) to $500 - $10,000+ for commercial licenses
+
+Social Engineering Penetration Testing Tools
+GoPhish: Free (Open Source)
+
+Social-Engineer Toolkit (SET): Free (Open Source)
+
+Custom Communication Platforms: Pricing included in service engagement
+
+Red Team Security Testing Tools
+Custom C2 (Command and Control) Frameworks: Pricing included in service engagement
+
+Physical Security Bypass Tools: $169 - $350 (e.g., Flipper Zero, HackRF One)
+
+Malware Development Tools: Pricing included in service engagement
+
+Penetration Testing as a Service (PTaaS) Tools
+Continuous Integration/Continuous Delivery (CI/CD) Tools: Pricing varies widely from Free (Open Source) to enterprise licenses in the tens of thousands per month.
+
+Automated Scanners: Pricing varies from Free (Open Source) to thousands of dollars per month.
+
+Dedicated Client Portal: Pricing included in service engagement
+
+Strategic Cybersecurity Services Tools
+Industry Frameworks & Methodologies: Free to access, though implementation costs vary.
+
+Collaboration Platforms: $5 - $20 per user, per month (e.g., Jira, Confluence)
+
+Project Management Tools: $5 - $20 per user, per month (e.g., Trello, Asana)
+
+Penetration Testing Types Tools
+For Hardware & IoT: $200 - $5,000+ (for hardware-based tools)
+
+For ICS/OT: Pricing varies, often including open-source tools or specialized commercial software.
+
+For Physical: $169 - $350 (e.g., Flipper Zero, HackRF One)
