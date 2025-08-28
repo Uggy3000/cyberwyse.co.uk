@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cyberwyse.co.uk</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #030a18;
+            color: #d1d5db; /* Light gray text */
+        }
+        .heading-underline {
+            position: relative;
+            display: inline-block;
+        }
+        .heading-underline::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 50%;
+            height: 2px;
+            background-color: #3b82f6; /* Blue underline */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="min-h-screen flex flex-col">
+        <!-- Header/Navbar -->
+        <header class="p-6 md:p-8 flex justify-between items-center text-white">
+            <h1 class="text-3xl font-extrabold text-white tracking-wide">Cyberwyse.co.uk</h1>
+            <nav class="hidden md:flex space-x-8 text-lg">
+                <a href="#" class="hover:text-blue-500 transition-colors duration-300">Services</a>
+                <a href="#" class="hover:text-blue-500 transition-colors duration-300">About</a>
+                <a href="#" class="hover:text-blue-500 transition-colors duration-300">Contact</a>
+            </nav>
+            <!-- Mobile Menu button -->
+            <button class="md:hidden text-white focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="flex-grow container mx-auto p-6 md:p-12 space-y-20">
+
+            <!-- Penetration Testing as a Service Section -->
+            <div class="flex flex-col lg:flex-row items-start lg:space-x-12">
+                <div class="w-full lg:w-1/3 mb-10 lg:mb-0">
+                    <h2 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
+                        Penetration Testing as a Service
+                    </h2>
+                    <p class="text-lg text-gray-400">
+                        We offer a continuous and scalable approach to security testing, integrating seamlessly into your development lifecycle.
+                    </p>
+                </div>
+                <div class="w-full lg:w-2/3">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-300">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Red Team as a Service</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Penetration Testing Cloud Services</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Phishing Assessment</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Web Application Penetration Testing Services</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>AI Penetration Testing Services</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Firewall Audits</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Ransomware Assessment</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Wireless Security Testing</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Infrastructure Penetration Testing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Penetration Testing Section -->
+            <div class="flex flex-col lg:flex-row-reverse items-start lg:space-x-reverse lg:space-x-12">
+                <div class="w-full lg:w-1/3 mb-10 lg:mb-0 text-right">
+                    <h2 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
+                        Penetration Testing Services
+                    </h2>
+                    <p class="text-lg text-gray-400">
+                        Detailed descriptions of our core penetration testing offerings.
+                    </p>
+                </div>
+                <div class="w-full lg:w-2/3 space-y-12">
+                    <!-- Web App Pen Testing Card -->
+                    <div class="p-8 bg-gray-800 rounded-2xl shadow-xl border border-gray-700">
+                        <h3 class="text-2xl font-bold text-white mb-2">Web application penetration testing</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-300">
+                            <li>Identify all security risks, including OWASP Top 10</li>
+                            <li>Authenticated, unauthenticated & API testing</li>
+                            <li>Includes DAST methodology and SDLC integration</li>
+                        </ul>
+                    </div>
+                    <!-- Network & Infrastructure Pen Tests Card -->
+                    <div class="p-8 bg-gray-800 rounded-2xl shadow-xl border border-gray-700">
+                        <h3 class="text-2xl font-bold text-white mb-2">Network & infrastructure pen tests</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-300">
+                            <li>Check services, patch levels and configurations</li>
+                            <li>Multiple test types, including external and internal testing</li>
+                            <li>Follows PTES best practice methodology</li>
+                        </ul>
+                    </div>
+                    <!-- Cloud Penetration Testing Card -->
+                    <div class="p-8 bg-gray-800 rounded-2xl shadow-xl border border-gray-700">
+                        <h3 class="text-2xl font-bold text-white mb-2">Cloud penetration testing</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-300">
+                            <li>Includes AWS, Azure, GCP & more</li>
+                            <li>All cloud technology tested, including IaaS & PaaS</li>
+                            <li>Includes configuration reviews and 365 testing</li>
+                        </ul>
+                    </div>
+                    <!-- Mobile Application Pen Tests Card -->
+                    <div class="p-8 bg-gray-800 rounded-2xl shadow-xl border border-gray-700">
+                        <h3 class="text-2xl font-bold text-white mb-2">Mobile application penetration tests</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-300">
+                            <li>Proven expertise in iOS, Android & more</li>
+                            <li>SAST and source code reviews</li>
+                            <li>Uncover insecure functionality</li>
+                        </ul>
+                    </div>
+                    <!-- Social Engineering Pen Tests Card -->
+                    <div class="p-8 bg-gray-800 rounded-2xl shadow-xl border border-gray-700">
+                        <h3 class="text-2xl font-bold text-white mb-2">Social engineering pen tests</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-300">
+                            <li>Maximise employee security vigilance</li>
+                            <li>Regular tests & training</li>
+                            <li>Tailor campaigns to your security objectives</li>
+                        </ul>
+                    </div>
+                    <!-- Red Team Security Testing Card -->
+                    <div class="p-8 bg-gray-800 rounded-2xl shadow-xl border border-gray-700">
+                        <h3 class="text-2xl font-bold text-white mb-2">Red team security testing</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-300">
+                            <li>Model a determined cyber criminal</li>
+                            <li>Physical penetration testing approach</li>
+                            <li>Test all layers of your organisation’s security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Existing lists from previous versions -->
+            <!-- Penetration Testing Types Section -->
+            <div class="flex flex-col lg:flex-row items-start lg:space-x-12">
+                <div class="w-full lg:w-1/3 mb-10 lg:mb-0">
+                    <h2 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
+                        Penetration Testing Types
+                    </h2>
+                    <p class="text-lg text-gray-400">
+                        Our comprehensive penetration testing services cover a wide range of attack vectors to identify and mitigate vulnerabilities.
+                    </p>
+                </div>
+                <div class="w-full lg:w-2/3">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-300">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Web App</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>API</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Mobile App</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>External</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Internal</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Cloud</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Hardware</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Medical Devices</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Wireless</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Physical</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>IoT/OT</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>ICS</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Source Code</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Custom</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Engineering Section -->
+            <div class="flex flex-col lg:flex-row-reverse items-start lg:space-x-reverse lg:space-x-12">
+                <div class="w-full lg:w-1/3 mb-10 lg:mb-0 text-right">
+                    <h2 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
+                        Social Engineering Types
+                    </h2>
+                    <p class="text-lg text-gray-400">
+                        Our social engineering assessments test the human element of security, from digital manipulation to physical intrusion.
+                    </p>
+                </div>
+                <div class="w-full lg:w-2/3">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-300">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Phishing</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Vishing</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Physical Social Engineering</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Smishing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cybersecurity Consulting Section -->
+            <div class="flex flex-col lg:flex-row items-start lg:space-x-12">
+                <div class="w-full lg:w-1/3 mb-10 lg:mb-0">
+                    <h2 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
+                        Cybersecurity Consulting
+                    </h2>
+                    <p class="text-lg text-gray-400">
+                        From strategy to implementation, our consulting services help you build a resilient and proactive security posture.
+                    </p>
+                </div>
+                <div class="w-full lg:w-2/3">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-300">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Red Team Engagements</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Source Code Reviews</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Tabletop Exercises</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Threat Modeling</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>NIST Framework Audits</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Incident Response Readiness</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compliance Pentesting Section -->
+            <div class="flex flex-col lg:flex-row-reverse items-start lg:space-x-reverse lg:space-x-12">
+                <div class="w-full lg:w-1/3 mb-10 lg:mb-0 text-right">
+                    <h2 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
+                        Compliance Pentesting
+                    </h2>
+                    <p class="text-lg text-gray-400">
+                        Ensure your organization meets regulatory requirements with our compliance-focused penetration testing services.
+                    </p>
+                </div>
+                <div class="w-full lg:w-2/3">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-gray-300">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>SOC 2</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>HIPAA</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>PCI</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>NIST CSF</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>CIS</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>FDA</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>GDPR</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>ISO 27001</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>HITRUST</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>CMMC</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-blue-500 text-lg">&bull;</span>
+                            <span>Others</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
